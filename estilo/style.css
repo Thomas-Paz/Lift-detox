@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 body {
   background-color: #4d9b44;
@@ -13,16 +14,15 @@ body {
   background-image: url(../midia/planodefundo.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background-position: center center;
+  
 }
 
 header {
   background-color: red;
   color: white;
   padding: 10px;
-  text-align: justify;
-  text-align: center;
+  
 }
 header h1 {
   font-size: 1em;
@@ -30,19 +30,24 @@ header h1 {
   text-align: center;
   text-shadow: 1px 1px 10px black;
 }
+header > h1 > i {
+  width: 30px;
+}
 .inicio h1 {
   color: white;
   text-align: center;
   margin-top: 10px;
   text-shadow: 1px 1px 1px black;
-  font-size: 1.5em;
+  font-size: 1.4em;
+  padding: 10px;
 }
 
 .inicio p {
   color: white;
   text-align: center;
   margin-top: 15px;
-  text-shadow: 2px 1px 5px black;
+  text-shadow: 2px 1px 2px black;
+  text-transform: uppercase;
 }
 .col {
   place-self: center;
@@ -67,22 +72,13 @@ header h1 {
   position: absolute;
   width: 100%;
   height: 100%;
-  border: none;
+  border: 1px solid white;
   
 }
 
 .botao-1 {
-  position: absolute;
-  left: 50%;
-  top: 90%;
-  padding: 5px;
-  border-radius: 5px;
-  text-transform: uppercase;
-  text-shadow: 3px 3px 5px black;
-  background-color: rgb(2, 59, 2);
-  font-size: 1.5vh;
-
-  transform: translate(-50%, -80%);
+  display: inline-block;
+  margin: auto;
 }
 
 .botao-1 a {
@@ -101,10 +97,13 @@ header h1 {
   color: rgb(8, 82, 8);
 }
 
-.botao-1:hover {
-  background-color: rgb(36, 219, 36);
+
+.main-2 {
+  background-color: white;
+  margin-top: 10px;
 }
 
-.botao-1 a:hover {
-  background-color: rgb(36, 219, 36);
+.inicio > p > mark {
+  color: rgb(255, 238, 0);
+  background-color: rgba(255, 255, 255, 0);
 }
