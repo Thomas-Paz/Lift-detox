@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1200px) {
+    .col {
+        place-self: center;
+        width: 40vw;
+        padding: 10px;
+        border-radius: 1rem;
+        margin-top: 100px;
+        padding-bottom: 200px;
+      }
+    .botao-1 {
+        top: 75%;
+    }
+
+    header > h1 {
+        font-size: 1.5em;
+        padding: 5px;
+    }
+}
