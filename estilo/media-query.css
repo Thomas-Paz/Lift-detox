@@ -1,9 +1,13 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 1200px) {
+
+    html, body {
+        background-color: #4D9B44;
+    }
     .col {
         place-self: center;
-        width: 44vw;
+        width: 40vw;
         padding: 10px;
         border-radius: 1rem;
         margin-top: 100px;
@@ -11,13 +15,32 @@
         margin-right: 50px;
       }
     .botao-1 {
-        top: 77%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 
     header > h1 {
         font-size: 1.5em;
         padding: 5px;
     }
+    .inicio {
+        
+        background-image: url(../midia/planodefundo.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        
+      }
+
+      
+
+      .img-simula {
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+
+      }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -28,6 +51,7 @@
         border-radius: 1rem;
         margin-top: 100px;
         padding-bottom: 200px;
+        margin-right: 50px;
       }
     .botao-1 {
         top: 75%;
@@ -37,4 +61,11 @@
         font-size: 1.5em;
         padding: 5px;
     }
+    .inicio {
+        background-image: url(../midia/planodefundo.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        
+      }
 }
