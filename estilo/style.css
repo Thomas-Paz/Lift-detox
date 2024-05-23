@@ -7,13 +7,14 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-color: #3e8037;
+  background-color: #006005;
 }
 
 header {
   background-color: red;
   color: white;
   padding: 10px;
+  position: static;
 }
 header h1 {
   font-size: 1em;
@@ -24,9 +25,15 @@ header h1 {
   font-weight: 500;
 }
 header > h1 > i {
+  margin-top: 0;
+  padding-top: 0;
   width: 30px;
 }
+.inicio {
+  background-color: #006005;
+}
 .inicio h1 {
+  
   color: white;
   text-align: center;
   margin-top: 10px;
@@ -91,9 +98,10 @@ header > h1 > i {
   height: 50px;
   border-radius: 10px;
   text-align: center;
-  padding-top: 14px;
+  padding-top: 10px;
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
+  margin-bottom: 5px;
 }
 
 .botao-1 a {
@@ -149,6 +157,7 @@ header > h1 > i {
   background: white;
   background-position: center center;
   background-size: cover;
+  padding-bottom: 20px;
 }
 
 .img-prod > img {
@@ -185,4 +194,130 @@ header > h1 > i {
   margin-top: 30px;
   margin-bottom: 20px;
 }
+.botao-2 {
+  display: block;
+  top: 0px;
+  background-color: rgb(7, 255, 28);
+  width: 300px;
+  height: 50px;
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  
+}
 
+.botao-2 a {
+  display: block;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.205);
+}
+.sec-4 {
+  background: #0F7E00;
+  padding-bottom: 20px;
+}
+
+
+
+#texto-4 {
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#titulo-4 {
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+.img-1 {
+  
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+
+
+.img-2 {
+  margin: auto;
+  width: 200px;
+  height: 220px;
+  background-color: white;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  
+}
+
+.img-3 {
+  color: black;
+  margin: auto;
+  width: 200px;
+  height: 220px;
+  background-color: white;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  
+} 
+
+.img-4 {
+  margin: auto;
+  width: 200px;
+  height: 220px;
+  background-color: white;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  
+}
+
+.img-5 {
+  margin: auto;
+  width: 200px;
+  height: 220px;
+  background-color: white;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.sec-5 {
+  background-color: #0F7E00;
+  padding-bottom: 50px;
+}
+
+.title-5 {
+  color: white;
+  text-align: center;
+  font-size: 1.3em;
+}
+.function  {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.foto-1 > img {
+  
+  margin-left: 20%;
+}
+.foto-1 > h4  {
+ text-align: center;
+ color: white;
+}
+
+.foto-1 > p {
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
