@@ -526,3 +526,11 @@ footer {
 .certificado-2 > p {
   padding: 0px 15px;
 }
+
+.botao-footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-2 a:hover {
+  text-decoration: underline;
+}

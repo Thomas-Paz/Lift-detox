@@ -1,71 +1,78 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 1200px) {
-
-    html, body {
-        background-color: #4D9B44;
-    }
+  
+  header {
+    padding: 15px;
+  }
+  
+  header > h1 {
+    font-size: 1.5em;
+    height: 50px;
+  }
+  .inicio {
+    background-image: url(../midia/Fundo-Verde.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    padding: 50px;
+    
+  }
     .col {
-        place-self: center;
-        width: 40vw;
-        padding: 10px;
-        border-radius: 1rem;
-        margin-top: 100px;
-        padding-bottom: 200px;
-        margin-right: 50px;
-      }
-    .botao-1 {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+      width: 50vw;
     }
 
-    header > h1 {
-        font-size: 1.5em;
-        padding: 5px;
+    .grupo-01 {
+      display: flex;
+      flex-direction: row;
     }
-    .inicio {
-        
-        background-image: url(../midia/planodefundo.svg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        
-      }
+    
+    footer {
+      display: flex;
+      flex-direction: row;
+      padding: 50px;
+      margin: 10px;
+    }
 
+    .img-footer {
+      width: 200px;
+    }
+
+    .main-2 {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 50px;
       
-
-      .img-simula {
-        display: flex;
-        flex-direction: row;
-        width: 400px;
-
-      }
+    }
+    .main-2 > h3 {
+      margin-left: 5%;
+    }
+    .main-2 > p {
+      font-size: 1vw;
+      margin-left: 5%;
+    }
+     .img-main2 {
+    margin-top: -18%;
+     margin-left: 760px;
+     
+     }
+     .img-main2 > img {
+      width: 30vw;
+     }
+.img-prod > img{
+  width: 49vw;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+    
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-    .col {
-        place-self: center;
-        width: 60vw;
-        padding: 10px;
-        border-radius: 1rem;
-        margin-top: 100px;
-        padding-bottom: 200px;
-        margin-right: 50px;
-      }
-    .botao-1 {
-        top: 75%;
+    .inicio {
+      background-color: #006005;
     }
 
-    header > h1 {
-        font-size: 1.5em;
-        padding: 5px;
-    }
-    .inicio {
-        background-image: url(../midia/planodefundo.svg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        
-      }
+    
 }
+
